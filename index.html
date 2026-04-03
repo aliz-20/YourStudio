@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourStudio</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="icon" href="assets/logo-dark.ico" type="image/x-icon" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+  <div class="bg-grid"></div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Your<span>Studio</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span id="themeIcon"><img src="https://emojigraph.org/media/apple/sun_2600-fe0f.png" alt="Sun" width="30" height="30"></span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-content reveal">
+        
+        <div class="hero-text">
+          <p class="eyebrow">Creative digital presence</p>
+          <h1>
+            We build elegant websites
+            <span>that actually impress.</span>
+          </h1>
+          
+          <p class="hero-description">
+            A modern concept website made for competition-level presentation.
+            Clean design, smooth animations, premium look, and strong first impression.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#about" class="btn btn-primary">Explore More</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card" id="modern-card">
+              <h3>Modern</h3>
+              <p>Minimal, elegant, and stylish design.</p>
+            </div>
+            <div class="stat-card">
+              <h3>Responsive</h3>
+              <p>Looks great on desktop, tablet, and mobile.</p>
+            </div>
+            <div class="stat-card" id="interactive-card">
+              <h3>Interactive</h3>
+              <p>Smooth scroll, dark mode, and scroll effects.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="floating-card card-large">
+            <p class="mini-label">Featured Project</p>
+            <h3>Brand-first design</h3>
+            <p>
+              Designed to feel like a real agency landing page with visual hierarchy,
+              balance, animation, and premium presentation.
+            </p>
+          </div>
+
+          <div class="floating-card card-small top-card">
+            <span>UI / UX</span>
+          </div>
+
+          <div class="floating-card card-small bottom-card">
+            <span>Creative Web</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Not just a website. A full impression.</h2>
+          <p>
+            This concept site is built to look polished, modern and competitive.
+            It uses layered visuals, clean spacing, high-end cards, motion effects,
+            and a structure that feels professional from top to bottom.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card reveal">
+            <h3>Design Focus</h3>
+            <p>
+              A soft-glow, glassmorphism-inspired style gives the site a modern,
+              premium identity without making it too cluttered.
+            </p>
+          </article>
+
+          <article class="info-card reveal delay-1">
+            <h3>User Experience</h3>
+            <p>
+              Smooth scrolling, hover transitions, reveal animations, and a clear
+              layout make the site feel dynamic and easy to explore.
+            </p>
+          </article>
+
+          <article class="info-card reveal delay-2">
+            <h3>Competition Ready</h3>
+            <p>
+              If you want to stand out, presentation matters. This kind of layout
+              instantly looks more advanced than a basic home/about/contact page.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container contact-wrapper">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s create something memorable.</h2>
+          <p>
+            Even as a concept, the contact section should feel real and professional.
+            It adds credibility and completes the website.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <h3>Contact Info</h3>
+            <p><strong>Email:</strong> hello@yourstudio.com</p>
+            <p><strong>Phone:</strong> +36 30 123 4567</p>
+            <p><strong>Location:</strong> City, Country</p>
+          </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 ??? Studio. Crafted for a modern web competition.</p>
+    </div>
+  </footer>
+
+  <script src="functions/functions.js"></script>
+  <script src="animations/animations.js"></script>
+</body>
+</html>
